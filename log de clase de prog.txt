@@ -1,0 +1,37 @@
+PS C:\Users\gashg\Desktop\3ro Mc> git config --global user.name "Dominicke777m"
+PS C:\Users\gashg\Desktop\3ro Mc> git config --global user.email "dominicelgallo@gmail.com" 
+PS C:\Users\gashg\Desktop\3ro Mc> git init
+Initialized empty Git repository in C:/Users/gashg/Desktop/3ro Mc/.git/
+PS C:\Users\gashg\Desktop\3ro Mc> git add .
+PS C:\Users\gashg\Desktop\3ro Mc> git commit -m "prueba"
+[master (root-commit) 3797984] prueba
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+PS C:\Users\gashg\Desktop\3ro Mc> git remote add origin https://github.com/Dominicke777m/3ro-Mc.git
+PS C:\Users\gashg\Desktop\3ro Mc> git branch -M main
+PS C:\Users\gashg\Desktop\3ro Mc> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 361 bytes | 120.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dominicke777m/3ro-Mc.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\gashg\Desktop\3ro Mc> git add .
+PS C:\Users\gashg\Desktop\3ro Mc> git commit -m "mensaje"
+[main 1d7a22d] mensaje
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 java.js
+ create mode 100644 stilo.css
+PS C:\Users\gashg\Desktop\3ro Mc> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 143.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dominicke777m/3ro-Mc.git
+   3797984..1d7a22d  main -> main
